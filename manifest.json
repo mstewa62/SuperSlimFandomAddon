@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "SuperSlimFandom",
+  "version": "1.0",
+
+  "description": "Removes many non-content spaces from Fandom pages to reduce bloat.",
+  
+  "content_scripts": [
+    {
+      "matches": ["*://*.fandom.com/*"],
+      "js": ["weightLoss.js"]
+    }
+  ]
+}
