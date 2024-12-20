@@ -7,6 +7,9 @@ topAdContainer.remove();
 let globalNav = document.querySelector("div.global-navigation");
 globalNav.remove();
 
+let globalNavExplore = document.querySelector("div.global-explore-navigation");
+globalNavExplore.remove();
+
 let globalFooter = document.querySelector("footer.global-footer");
 globalFooter.remove();
 
@@ -16,8 +19,8 @@ bottomAdContainer.remove();
 let midPagePlayer = document.querySelector("div#incontent_player");
 midPagePlayer.remove();
 
-let wikiaBar = document.querySelector("div#WikiaBar");
-wikiaBar.remove();
-
 let adSlots = document.querySelector("div[class*='ad-slot-placeholder']");
 adSlots.remove();
+
+let wikiaBar = document.querySelector("div#WikiaBar");
+wikiaBar.remove();
